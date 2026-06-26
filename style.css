@@ -49,13 +49,6 @@ body::before {
   margin: 8px 0 0;
   overflow: hidden;
 }
-/* Sembunyikan attribution TradingView */
-.ticker-row + a,
-.ticker-row ~ a,
-.ticker-row ~ p,
-.ticker-row ~ div {
-  display: none !important;
-}
 .ticker-row {
   padding: 0;
 }
