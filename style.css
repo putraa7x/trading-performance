@@ -49,13 +49,11 @@ body::before {
   margin: 8px 0 0;
   overflow: hidden;
 }
-.ticker-wrap > div:last-of-type,
-.ticker-wrap a,
-.ticker-wrap p {
-  display: none !important;
-}
-tv-single-ticker::part(attribution),
-tv-single-ticker + * {
+/* Sembunyikan attribution TradingView */
+.ticker-row + a,
+.ticker-row ~ a,
+.ticker-row ~ p,
+.ticker-row ~ div {
   display: none !important;
 }
 .ticker-row {
@@ -582,4 +580,5 @@ footer {
   .reveal { opacity: 1 !important; transform: none !important; }
   .gold-line { background: #8a6a20; }
   footer { margin-top: 32px; }
-}
+  }
+  
