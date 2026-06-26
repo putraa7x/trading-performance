@@ -201,7 +201,7 @@ header {
 
 /* ── Hero ── */
 .hero {
-  padding: 56px 0 44px;
+  padding: 16px 0 44px;
   text-align: center;
 }
 @media (min-width: 768px) { .hero { padding: 88px 0 68px; } }
@@ -574,4 +574,4 @@ footer {
   .gold-line { background: #8a6a20; }
   footer { margin-top: 32px; }
   }
-  
+    
