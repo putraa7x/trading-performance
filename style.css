@@ -49,6 +49,15 @@ body::before {
   margin: 8px 0 0;
   overflow: hidden;
 }
+.ticker-wrap > div:last-of-type,
+.ticker-wrap a,
+.ticker-wrap p {
+  display: none !important;
+}
+tv-single-ticker::part(attribution),
+tv-single-ticker + * {
+  display: none !important;
+}
 .ticker-row {
   padding: 0;
 }
@@ -573,5 +582,4 @@ footer {
   .reveal { opacity: 1 !important; transform: none !important; }
   .gold-line { background: #8a6a20; }
   footer { margin-top: 32px; }
-  }
-    
+}
